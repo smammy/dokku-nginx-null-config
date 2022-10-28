@@ -1,0 +1,8 @@
+#!/bin/sh
+
+set -euo pipefail
+IFS=$'\n\t'
+
+[ -n "${DOKKU_TRACE:-}" ] && set -x
+
+echo "$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)/dokku.conf.sigil"

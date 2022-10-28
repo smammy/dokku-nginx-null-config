@@ -1,0 +1,3 @@
+[plugin]
+description = "Use an empty file for /etc/nginx/conf.d/dokku.conf"
+version = "1"

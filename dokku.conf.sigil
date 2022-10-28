@@ -1,0 +1,6 @@
+# This space intentionally left blank. You must have (at least) the following
+# line somewhere in your config to enable Dokku integration.
+# 
+#     include {{ $.DOKKU_ROOT }}/*/nginx.conf;
+# 
+# (This message brought to you by the dokku-nginx-null-config plugin.)
